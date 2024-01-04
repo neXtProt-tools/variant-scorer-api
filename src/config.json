@@ -1,0 +1,15 @@
+{
+    "nextprot_data": {
+        "location": "/scratch/neXtProt/bern-project/api/nextprot-data/"
+    },
+    "default_entries": [
+        "NX_P00533",
+        "NX_Q92560",
+        "NX_P35240"
+    ],
+    "nextprot_urls":{
+        "annotations" : "https://api.nextprot.org/entry/entry_accession/annotation.json",
+        "mutagenesis" : "https://api.nextprot.org/entry/entry/entry_accession/mutagenesis.json",
+        "phenotypic_variation": "https://api.nextprot.org/entry/entry_accession/phenotypic-variation.xml"
+    }
+}
