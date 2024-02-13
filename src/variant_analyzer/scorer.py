@@ -121,6 +121,8 @@ def get_variant_score():
         variant["score"] = score
         variant_scores['variants'].append(variant)
 
+    # VEP
+
     return json.dumps(variant_scores)
 
 
